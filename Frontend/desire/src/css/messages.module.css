@@ -1,0 +1,9 @@
+.messages {
+    background-color: grey;
+    width: 350px;
+    height: 450px;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 120px;
+    border-radius: 30px;
+}

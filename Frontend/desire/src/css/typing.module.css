@@ -1,0 +1,9 @@
+.main {
+    background-color: rgba(116, 74, 74, 0.21);
+    height: 50px;
+    width: 70%;
+    position: fixed;
+    bottom: 0;
+    margin-left: 480px;
+    margin-bottom: 10px;
+}
