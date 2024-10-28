@@ -81,52 +81,54 @@ Ensure you have the following installed:
   ```   bash
 
     npm install
+   ```
     ```
 6. Start the development server:
+   ``` bash
+   npm run dev
+   ```
 
-bash
-
-npm run dev
-
-Configuration
+7. Configuration
 WebSocket Configuration
 
 Ensure you have set up the WebSocket configurations for Django Channels to enable real-time messaging. Update your routing.py file located in the chats folder to contain paths for chatroom and notifications.
 Environment Variables
 
 Create a .env file in the Django project root and add the following variables:
+``` bash
+   
+   SECRET_KEY=your_secret_key
+   DEBUG=True
+   ALLOWED_HOSTS=localhost,127.0.0.1
+   DATABASE_URL=sqlite:///db.sqlite3  # or your desired database URL
+```
 
-bash
-
-SECRET_KEY=your_secret_key
-DEBUG=True
-ALLOWED_HOSTS=localhost,127.0.0.1
-DATABASE_URL=sqlite:///db.sqlite3  # or your desired database URL
 
 In the React project, create a .env file and add the following:
-
-bash
+```bash
 
 VITE_API_URL=http://127.0.0.1:8000
+```
 
 Usage
 
 Start the Django backend server:
-
-bash
+``` bash
 
 python manage.py runserver
+```
 
 Start the React frontend server:
 
-bash
+``` bash
 
 npm run dev
+```
 
 Open a browser and go to http://localhost:3000 to access the application.
 
 Register a new account or log in to start chatting!
-Screenshots
+
 
 
     Backend: Django, Django REST Framework, Django Channels
