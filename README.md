@@ -137,22 +137,21 @@ Register a new account or log in to start chatting!
     Database: SQLite (development) / PostgreSQL (production)
 
 # Folder Structure
-
-plaintext
+```
 
 DesireDial/
-├── Dail/                  # Django backend project
-│   ├── chats/             # Chat app for messaging functionality
-│   ├── users/             # User authentication and profile management
-│   ├── Dail/              # Django settings and routing
-│   ├── requirements.txt   # Backend dependencies
+├── Dail/                  
+│   ├── chats/            
+│   ├── users/            
+│   ├── Dail/              
+│   ├── requirements.txt 
 │   └── manage.py
-└── Desire/                # React frontend project
-    ├── src/               # React components and hooks
-    ├── public/            # Static assets
-    ├── package.json       # Frontend dependencies
+└── Desire/             
+    ├── src/               
+    ├── public/         
+    ├── package.json      
     └── vite.config.js
-
+```
 # Future Enhancements
 
     Media Sharing: Allow users to share images and files in chats.
