@@ -1,4 +1,6 @@
 # DesireDial
+![LOGO](frontend/src/assets/logo.jpg)
+
 
 DesireDial is a real-time chatting application that uses Django for the backend and React for the frontend, built as part of the DesireDial project. This application provides a seamless messaging experience with WebSocket-based communication, allowing users to chat in real-time.
 
